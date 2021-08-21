@@ -9,7 +9,10 @@ Salida: S.H
 Ejemplo 2
 
 Entrada: Patrick Feeney
-Salida: P.F */
+Salida: P.F
+
+url=https://www.codewars.com/kata/57eadb7ecd143f4c9c0000a3/train/javascript
+*/
 
 function abbrevName(name){
     //Primero separar los nombres
