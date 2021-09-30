@@ -18,7 +18,7 @@ El nombre de la sociedad secreta debe ser enteramente en mayúsculas.
 function societyName(friends) {
     let abc = friends.sort()
     let msgSecret =abc.map(x => x[0]).join('')
-    //animals.map(x=>x[0]).join('');
+  
     
    return msgSecret
 	}
