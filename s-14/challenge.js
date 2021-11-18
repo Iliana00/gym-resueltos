@@ -20,7 +20,7 @@ sentence consiste solo de letras del alfabeto Ingles.
 */
 
 var checkIfPangram = function(sentence) {
-    const alphabet = "abcdefghijklmnñopqrstuvwxy";
+    const abc = "abcdefghijklmnñopqrstuvwxy";
     for(let i = 0; i < abc.length; i++){
         let currentLet = [i];
         if(sentence.includes(currentLet)){
